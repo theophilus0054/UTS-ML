@@ -1,0 +1,19 @@
+[project]
+name = "uts-ml"
+version = "0.1.0"
+description = "Klasifikasi dan Analisis Komentar YouTube untuk UTS Machine Learning"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "google-api-python-client>=2.201.0",
+    "ipykernel>=7.4.0",
+    "matplotlib>=3.11.2",
+    "nltk>=3.10.4",
+    "numpy>=2.5.4",
+    "pandas>=3.1.0",
+    "pysastrawi>=1.2.1",
+    "python-dotenv>=1.2.4",
+    "scikit-learn>=1.9.1",
+    "seaborn>=0.13.2",
+    "tqdm>=4.70.1",
+]
